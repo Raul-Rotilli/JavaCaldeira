@@ -20,5 +20,6 @@ public class Exercicio7 {
         }else {
             System.out.println("Sinto muito, mas você não pode comprar um automóvel conosco!");
         }
+        s.close();
     }
 }

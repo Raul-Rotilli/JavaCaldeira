@@ -41,5 +41,7 @@ public class Exercicio8 {
                 System.out.println("Opção inválida!");
                 break;
         }
+        s.close();
+
     }
 }

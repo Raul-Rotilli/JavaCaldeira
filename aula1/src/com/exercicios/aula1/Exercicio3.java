@@ -35,5 +35,7 @@ public class Exercicio3 {
         double mediaAritmetica = (n1 + n2 + n3) /3;
 
         System.out.println("A média aritmética dos 3 números é: " + mediaAritmetica);
+
+        s.close();
     }
 }

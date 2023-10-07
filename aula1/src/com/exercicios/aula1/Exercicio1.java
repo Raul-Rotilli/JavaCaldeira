@@ -13,6 +13,6 @@ public class Exercicio1 {
 
         System.out.println("Você registrou seu nome como " + nome);
 
-
+        s.close();
     }
 }
