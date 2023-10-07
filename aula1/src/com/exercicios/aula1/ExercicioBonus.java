@@ -21,7 +21,6 @@ public class ExercicioBonus {
         StringBuilder sb = new StringBuilder();
         //loop que inicia no final da String e deois itera até o primeiro caractere
         for (int i = palavra.length() - 1;i >= 0; i--){
-            System.out.println(i);
             sb.append(palavra.charAt(i));//controi a string invertida
         }
         return sb.toString();
