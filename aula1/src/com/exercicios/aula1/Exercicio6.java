@@ -27,6 +27,7 @@ public class Exercicio6 {
         }else {
             System.out.println("Idade inválida");
         }
+        s.close();
     }
         
 }

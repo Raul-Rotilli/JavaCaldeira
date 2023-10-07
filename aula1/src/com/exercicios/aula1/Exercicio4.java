@@ -24,8 +24,8 @@ public class Exercicio4 {
         }else {
             System.out.println("Seu salário de " + df.format(salUsuario) + " equivale a " + df.format(Math.floor(quantidadeSalariosMinimos)) + " salários mínimos no Brasil em 01/10/2023.");
         }
-
-        }
+        s.close();
+    }
 
 
 }

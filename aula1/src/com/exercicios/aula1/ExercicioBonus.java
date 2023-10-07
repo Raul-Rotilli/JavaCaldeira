@@ -15,13 +15,16 @@ public class ExercicioBonus {
 
         String palavraAoContrario = imprimeAoContrario(palavra);
         System.out.println("Aqui está sua palavra ao contrário: "+ palavraAoContrario);
-                s.close();
+        s.close();
     }
     public static String imprimeAoContrario (String palavra){
         StringBuilder sb = new StringBuilder();
+        //loop que inicia no final da String e deois itera até o primeiro caractere
         for (int i = palavra.length() - 1;i >= 0; i--){
-            sb.append(palavra.charAt(i));
+            System.out.println(i);
+            sb.append(palavra.charAt(i));//controi a string invertida
         }
         return sb.toString();
     }
+
 }

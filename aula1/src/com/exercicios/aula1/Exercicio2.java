@@ -16,5 +16,7 @@ public class Exercicio2 {
         int n2 = Integer.parseInt(s.nextLine());
 
         System.out.println("O primeiro número digitado foi "+ n1 + " e o segundo número foi " + n2);
+
+        s.close();
     }
 }
