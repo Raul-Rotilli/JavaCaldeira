@@ -1,4 +1,4 @@
-package com.exercicios.aula3.parte1;
+package com.exercicios.aula3.parte1.exercicio5;
 //Crie um programa Java que simule um sistema de fila de impressão.
 // O programa deve permitir que os usuários adicionem documentos à fila de impressão e, em seguida,
 // imprimir documentos da fila. Use uma LinkedList para representar a fila de impressão.

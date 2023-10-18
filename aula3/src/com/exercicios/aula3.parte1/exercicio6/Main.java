@@ -1,4 +1,4 @@
-package com.exercicios.aula3.parte1;
+package com.exercicios.aula3.parte1.exercicio6;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
 // Use uma LinkedList para representar as reservas de passagens.
 // Reserva deve ser uma classe do seu código com os atributos:
 // nome, local, cpf de quem reservou, data de entrada e data de saída, e métodos que você julgue necessários.
-public class Exercicio6 {
+public class Main {
     public static void main(String[] args) {
 
 
