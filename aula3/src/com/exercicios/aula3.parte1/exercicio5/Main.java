@@ -3,7 +3,7 @@ package com.exercicios.aula3.parte1.exercicio5;
 // O programa deve permitir que os usuários adicionem documentos à fila de impressão e, em seguida,
 // imprimir documentos da fila. Use uma LinkedList para representar a fila de impressão.
 // Impressão deve ser uma classe do seu código com os atributos: nome e numero de páginas e métodos que você julgue necessários.
-public class Exercicio5 {
+public class Main {
     public static void main(String[] args) {
 
     }
