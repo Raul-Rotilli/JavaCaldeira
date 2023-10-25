@@ -24,5 +24,6 @@ public class Exercicio1 {
         media = soma / numeros.length;
         System.out.println("A soma das notas é:" + soma);
         System.out.println("A média das notas é:" + media);
+        s.close();
     }
 }

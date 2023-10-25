@@ -37,6 +37,6 @@ public class Exercicio2 {
     }
 
     System.out.println("Array completo: " + Arrays.toString(numerosAleatorios));;
-
+    s.close();
     }
 }
