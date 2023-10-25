@@ -14,7 +14,6 @@ public class Main {
         boolean b = true;
         ArrayList<Tarefa> listaTarefas = new ArrayList<>();
 
-        // try {
         while(b){
             System.out.println("Digite 1 para salvar uma tarefa | Digite 2 para exluir uma tarefa| Digite 3 para exibir todas sua tarefas | Digite 4 para sair |\n");
             System.out.print("--");
@@ -58,7 +57,9 @@ public class Main {
                         }
                         break;
                     case 4:
+                        System.out.println("Saindo do programa.");
                         b = false;
+                        s.close();
                         break;
 
                     default:
@@ -67,17 +68,10 @@ public class Main {
                 }
             }else{
                 System.out.println("Informe um número inteiro, dentro das opções do menu");
-                //throw new InputMismatchException("Informe um número inteiro, dentro das opções do menu");
             }
 
         }
-//            }catch(InputMismatchException e){
-//                System.out.println("Digite um número inteiro!!!");
-//            }
-//            catch(IndexOutOfBoundsException ee){
-//                System.out.println("Nenhuma tarefa a ser excluída!!!");
-//            }
-        s.close();
+
     }
 }
 
